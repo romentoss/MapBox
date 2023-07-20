@@ -14,13 +14,16 @@
       <!-- Houses -->
       <div *ngFor="let house of houses" class="col-4 mb-2">
         <div class="card">
-          <img src="..." alt="" class="card-img-top">
           <map-mini-map [lngLat]="house.lngLat"></map-mini-map>
           <div class="card-body">
             <h5 class="card-title">{{house.title}}</h5>
             <p class="card-text">{{house.description}}</p>
           </div>
         </div>
+      </div>
+      <div class="col-4 mb-2">
+        Alone component
+        <counter-alone [counter]="25"/>
       </div>
     </div>
   </div>
