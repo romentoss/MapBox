@@ -1,0 +1,20 @@
+#map{
+  width: 117%;
+  margin-top: 4%;
+  height: 92vh;
+  margin-left: -7%;
+
+}
+
+ul{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+button{
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+}
